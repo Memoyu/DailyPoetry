@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyPoetry", "DailyPoetry\DailyPoetry.csproj", "{568A6E45-16C7-40A7-B780-3A2BABEEA48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyPoetry.Library", "DailyPoetry.Library\DailyPoetry.Library.csproj", "{0E653D89-8DFF-45A5-9C44-7001A50243B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyPoetry.UnitTest", "DailyPoetry.UnitTest\DailyPoetry.UnitTest.csproj", "{3CE18FE6-9480-48C5-8150-BF3904C5683A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{568A6E45-16C7-40A7-B780-3A2BABEEA48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568A6E45-16C7-40A7-B780-3A2BABEEA48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568A6E45-16C7-40A7-B780-3A2BABEEA48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568A6E45-16C7-40A7-B780-3A2BABEEA48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E653D89-8DFF-45A5-9C44-7001A50243B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E653D89-8DFF-45A5-9C44-7001A50243B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E653D89-8DFF-45A5-9C44-7001A50243B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E653D89-8DFF-45A5-9C44-7001A50243B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE18FE6-9480-48C5-8150-BF3904C5683A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE18FE6-9480-48C5-8150-BF3904C5683A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE18FE6-9480-48C5-8150-BF3904C5683A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE18FE6-9480-48C5-8150-BF3904C5683A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

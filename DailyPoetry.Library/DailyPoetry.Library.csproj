@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
@@ -7,9 +7,22 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Models" />
-      <Folder Include="Services" />
+      <None Remove="poetrydb.sqlite3" />
+    </ItemGroup>
+
+    <ItemGroup>
+		<EmbeddedResource Include="poetrydb.sqlite3" >
+			<LogicalName>poetrydb.sqlite3</LogicalName>
+		</EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
       <Folder Include="ViewModels" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+      <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
     </ItemGroup>
 
 </Project>
